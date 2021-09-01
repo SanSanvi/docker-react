@@ -10,10 +10,10 @@ script:
 
 deploy:
  provider: azure_web_apps
- skip_clean: true
  username: "$AZURE_USERNAME"
  password:
   secure: "$AZURE_PASSWORD"
  site: "https://san-docker.azurewebsites.net"
  on:
   branch: master
+ skip_clean: true
