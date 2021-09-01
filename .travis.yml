@@ -10,6 +10,7 @@ script:
 
 deploy:
  provider: azure_web_apps
+ verbose: true
  username: "$AZURE_USERNAME"
  password:
   secure: "$AZURE_PASSWORD"
