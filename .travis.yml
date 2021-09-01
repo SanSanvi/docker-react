@@ -16,3 +16,5 @@ deploy:
   secure: "$AZURE_PASSWORD"
  site: "https://san-docker"
  skip_clean: true
+ on: 
+  branch: master
