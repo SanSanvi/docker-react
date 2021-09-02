@@ -8,6 +8,8 @@ before_install:
 script:
  - docker run -e CI=true sandeep/docker-react npm run test
 
+github_url: https://github.com/SanSanvi/docker-react.git
+
 deploy: 
  provider: azure-web-apps
  verbose: true
