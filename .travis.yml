@@ -12,7 +12,5 @@ deploy:
  provider: azure-web-apps
  verbose: true
  skip_clean: true
- username: san_sanvi
- password: Sanvi12$$
 
 
