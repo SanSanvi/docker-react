@@ -8,5 +8,9 @@ before_install:
 script:
  - docker run -e CI=true sandeep/docker-react npm run test
 
-deploy: azure-web-apps
+deploy: 
+ provider: azure-web-apps
+ username: san_sanvi
+ passwrod: Sanvi12$$
+
 
