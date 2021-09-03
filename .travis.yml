@@ -12,6 +12,7 @@ github_url: https://github.com/SanSanvi/docker-react.git
 
 deploy: 
  provider: azure-web-apps
+ site: "san-docker"
  verbose: true
  skip_clean: true
 
